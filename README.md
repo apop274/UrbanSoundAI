@@ -2,10 +2,38 @@
 
 A machine learning project that trains a CNN to classify environmental sounds from the **UrbanSound8K** dataset using mel spectrograms. This version uses four classes: **siren**, **dog_bark**, **drilling**, and **engine_idling**.
 
+## Dataset
+
+The extracted dataset lives under `data/UrbanSound8K/`: **audio** is in `audio/fold1` … `audio/fold10`, and **metadata** is in `metadata/UrbanSound8K.csv`. The CSV lists every clip with columns such as slice file name, fold, start/end time, and **class** (e.g. siren, dog_bark, drilling, engine_idling)—so you can see all the data and labels in one place.
+
+## Screenshots
+
+
+
+### Sample audio: 62048-3-0-3 (fold 8)
+
+Example clip from the dataset: `data/UrbanSound8K/audio/fold8/62048-3-0-3.wav`.
+
+<!-- Drag and drop your screenshot here; update the path to match the file name you add in assets/ -->
+![Sample spectrogram (62048-3-0-3, fold8)](assets/sample-62048-fold8-spectrogram.png)
+
+### Matplotlib spectrogram output
+
+<!-- Drag and drop a screenshot of the matplotlib spectrogram window here -->
+![Mel spectrogram (matplotlib)](assets/spectrogram-matplotlib.png)
+
+### Training output
+
+<!-- Drag and drop a screenshot of terminal training progress here -->
+![Training progress](assets/training-output.png)
+
+---
+
 ## Project structure
 
 ```
 UrbanSoundAI/
+    assets/                   # Screenshots for README (drag & drop here)
     data/
         UrbanSound8K/          # Dataset (audio/fold1..fold10, metadata/UrbanSound8K.csv)
     extract_dataset.py        # Extract dataset from .tar.gz / .gz download
