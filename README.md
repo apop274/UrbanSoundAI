@@ -13,19 +13,17 @@ The extracted dataset lives under `data/UrbanSound8K/`: **audio** is in `audio/f
 ### Sample audio: 62048-3-0-3 (fold 8)
 
 Example clip from the dataset: `data/UrbanSound8K/audio/fold8/62048-3-0-3.wav`.
+<img width="1029" height="48" alt="image" src="https://github.com/user-attachments/assets/d963da41-c493-4f88-aeaf-7d38413c9b0f" />
 
-<!-- Drag and drop your screenshot here; update the path to match the file name you add in assets/ -->
-![Sample spectrogram (62048-3-0-3, fold8)](assets/sample-62048-fold8-spectrogram.png)
+
+
+
 
 ### Matplotlib spectrogram output
 
-<!-- Drag and drop a screenshot of the matplotlib spectrogram window here -->
-![Mel spectrogram (matplotlib)](assets/spectrogram-matplotlib.png)
+<img width="997" height="430" alt="image" src="https://github.com/user-attachments/assets/23a3882c-40a6-4db6-9a3f-44dd13ebb9d5" />
 
-### Training output
 
-<!-- Drag and drop a screenshot of terminal training progress here -->
-![Training progress](assets/training-output.png)
 
 ---
 
